@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/simulation/modelsim
+vFP_Multi_32
+Z1 !s110 1658685274
+!i10b 1
+!s100 gbED;z<:mzESofCPjUQ=c3
+I0:USFzBAlIB^A:0YH8aj;1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658684394
+8D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/FP_Multi_32.v
+FD:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/FP_Multi_32.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1658685274.000000
+!s107 D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/FP_Multi_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier|D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/FP_Multi_32.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier}
+Z7 tCvgOpt 0
+n@f@p_@multi_32
+vTB_FP_multi
+R1
+!i10b 1
+!s100 ;7i^C;4cQOee?@^A_mZRj1
+I=jbSB3HGDVdNHLlJG>3<l2
+R2
+R0
+w1658685167
+8D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/TB_FP_multi.v
+FD:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/TB_FP_multi.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/TB_FP_multi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier|D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Multiplier/TB_FP_multi.v|
+!i113 1
+R5
+R6
+R7
+n@t@b_@f@p_multi

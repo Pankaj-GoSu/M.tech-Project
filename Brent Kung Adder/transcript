@@ -1,0 +1,20 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder/Brent_Kung.mpf}
+# Loading project Brent_Kung
+vsim work.Tb_BrentKung
+# vsim work.Tb_BrentKung 
+# Start time: 17:11:33 on Jul 24,2022
+# Loading work.Tb_BrentKung
+# Loading work.Brent_Kung
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/Tb_BrentKung/a \
+sim:/Tb_BrentKung/b \
+sim:/Tb_BrentKung/cin \
+sim:/Tb_BrentKung/cout \
+sim:/Tb_BrentKung/s
+run
+run -all
+# Break key hit
+# End time: 17:14:59 on Jul 24,2022, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 1

@@ -1,0 +1,100 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/IIT BOMBAY/M.Tech Projects/Asynchronous FIFO/Asynchronous_FIFO.mpf}
+# Loading project Asynchronous_FIFO
+vsim work.Tb_Asynchronous_FIFO
+# vsim work.Tb_Asynchronous_FIFO 
+# Start time: 22:27:51 on Jul 24,2022
+# Loading work.Tb_Asynchronous_FIFO
+# Loading work.Asynchronous_FIFO
+# Loading work.transmisson
+# WARNING: No extended dataflow license exists
+vsim work.Asynchronous_FIFO
+# End time: 22:28:19 on Jul 24,2022, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
+# vsim work.Asynchronous_FIFO 
+# Start time: 22:28:19 on Jul 24,2022
+# Loading work.Asynchronous_FIFO
+# Loading work.transmisson
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/Asynchronous_FIFO/data_in \
+sim:/Asynchronous_FIFO/data_out \
+sim:/Asynchronous_FIFO/depth \
+sim:/Asynchronous_FIFO/empty \
+sim:/Asynchronous_FIFO/full \
+sim:/Asynchronous_FIFO/memory \
+sim:/Asynchronous_FIFO/p \
+sim:/Asynchronous_FIFO/r_empty \
+sim:/Asynchronous_FIFO/read_clk \
+sim:/Asynchronous_FIFO/read_pointer \
+sim:/Asynchronous_FIFO/read_pointer_bin \
+sim:/Asynchronous_FIFO/read_pointer_grey \
+sim:/Asynchronous_FIFO/read_s1 \
+sim:/Asynchronous_FIFO/read_s2 \
+sim:/Asynchronous_FIFO/reset \
+sim:/Asynchronous_FIFO/transmitter_ptr \
+sim:/Asynchronous_FIFO/w \
+sim:/Asynchronous_FIFO/w_full \
+sim:/Asynchronous_FIFO/write_clk \
+sim:/Asynchronous_FIFO/write_pointer \
+sim:/Asynchronous_FIFO/write_pointer_bin \
+sim:/Asynchronous_FIFO/write_pointer_grey \
+sim:/Asynchronous_FIFO/write_s1 \
+sim:/Asynchronous_FIFO/write_s2
+run -all
+run -all
+# Break key hit
+run -all
+run -all
+run -continue
+run -continue
+run -continue
+add dataflow sim:/Asynchronous_FIFO/reset
+# No drivers or ports for reset
+run
+run -all
+# Break key hit
+run -continue
+run
+run
+vsim work.Asynchronous_FIFO
+# End time: 22:31:02 on Jul 24,2022, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 2
+# vsim work.Asynchronous_FIFO 
+# Start time: 22:31:02 on Jul 24,2022
+# Loading work.Asynchronous_FIFO
+# Loading work.transmisson
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/Asynchronous_FIFO/data_in \
+sim:/Asynchronous_FIFO/data_out \
+sim:/Asynchronous_FIFO/depth \
+sim:/Asynchronous_FIFO/empty \
+sim:/Asynchronous_FIFO/full \
+sim:/Asynchronous_FIFO/memory \
+sim:/Asynchronous_FIFO/p \
+sim:/Asynchronous_FIFO/r_empty \
+sim:/Asynchronous_FIFO/read_clk \
+sim:/Asynchronous_FIFO/read_pointer \
+sim:/Asynchronous_FIFO/read_pointer_bin \
+sim:/Asynchronous_FIFO/read_pointer_grey \
+sim:/Asynchronous_FIFO/read_s1 \
+sim:/Asynchronous_FIFO/read_s2 \
+sim:/Asynchronous_FIFO/reset \
+sim:/Asynchronous_FIFO/transmitter_ptr \
+sim:/Asynchronous_FIFO/w \
+sim:/Asynchronous_FIFO/w_full \
+sim:/Asynchronous_FIFO/write_clk \
+sim:/Asynchronous_FIFO/write_pointer \
+sim:/Asynchronous_FIFO/write_pointer_bin \
+sim:/Asynchronous_FIFO/write_pointer_grey \
+sim:/Asynchronous_FIFO/write_s1 \
+sim:/Asynchronous_FIFO/write_s2
+force -freeze sim:/Asynchronous_FIFO/read_clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/Asynchronous_FIFO/read_clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/Asynchronous_FIFO/write_clk 1 0, 0 {0 ps} -r 1
+run
+force -freeze sim:/Asynchronous_FIFO/write_clk 1 0, 0 {50 ps} -r 100
+run
+# End time: 22:34:51 on Jul 24,2022, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 1

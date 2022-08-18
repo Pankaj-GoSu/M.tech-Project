@@ -1,0 +1,148 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/parrot1/Downloads/Sem3/EE721/ProjCap_721/simulation/modelsim
+Passign_logic_pack
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z3 w1635715092
+R0
+Z4 8/home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd
+Z5 F/home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd
+l0
+L3 1
+VfdT8T:n3E30;I]D6aB79i2
+!s100 ;^DB`iCed<_=kCQ27c[A_1
+Z6 OV;C;2020.1;71
+31
+b1
+Z7 !s110 1635777191
+!i10b 1
+Z8 !s108 1635777191.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd|
+!s107 /home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Bbody
+Z12 DPx4 work 17 assign_logic_pack 0 22 fdT8T:n3E30;I]D6aB79i2
+R1
+R2
+!i122 0
+l0
+L11 1
+V6TA1A7HgI2BLSi>iC7EH:3
+!s100 J9;ieLiQd7h]mlg=Hz>;I1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z13 !s107 /home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd|
+!i113 1
+R10
+R11
+Evscpu
+R3
+R12
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z15 DPx8 synopsys 10 attributes 0 22 dc>JdEHRM@6GGENe5bZ?D1
+Z16 DPx4 ieee 14 std_logic_misc 0 22 dN]HY6l5ohPcZ:TaC@B;53
+R1
+R2
+!i122 0
+R0
+R4
+R5
+l0
+L39 1
+VGA<cZ<ZhL[4>N`QC[2J4C1
+!s100 oQQ4e65ZPOe<^?F;A9z142
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+Artl
+R12
+R14
+R15
+R16
+R1
+R2
+Z17 DEx4 work 5 vscpu 0 22 GA<cZ<ZhL[4>N`QC[2J4C1
+!i122 0
+l83
+L59 213
+VWYXA@dBNbMDDWc7`9Mco20
+!s100 2ng;>0g3HTPz^IDMd6AzB2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+Evscputb
+R3
+R1
+R2
+!i122 0
+R0
+R4
+R5
+l0
+L279 1
+VMIP`eadXFfimHmGOkclce2
+!s100 ZS[TNO;VZU4o7EiKANYgP2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11
+Astim
+R12
+R14
+R15
+R16
+R17
+R1
+R2
+DEx4 work 7 vscputb 0 22 MIP`eadXFfimHmGOkclce2
+!i122 0
+l317
+L280 70
+VaHD8Ri7aicHAjl0Wcik4I2
+!s100 NU]oQg7D5cN]7I=m_S1Hi1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R13
+!i113 1
+R10
+R11

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at FP_Adder_32.v(24): always construct contains both blocking and non-blocking assignments File: D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/FP_Adder_32.v Line: 24

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Jul 24 23:46:35 2022
+Quartus Prime Version : 18.1.1 Build 646 04/11/2019 SJ Lite Edition
+Revision Name : Systolic_array
+Top-level Entity Name : Systolic_array
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 249
+Total pins : 203
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 9
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

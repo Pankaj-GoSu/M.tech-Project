@@ -1,0 +1,64 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do Asynchronous_FIFO_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {Asynchronous_FIFO.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:11 on Jul 24,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Asynchronous_FIFO.vo 
+# -- Compiling module Asynchronous_FIFO
+# 
+# Top level modules:
+# 	Asynchronous_FIFO
+# End time: 22:35:11 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/IIT\ BOMBAY/M.Tech\ Projects/Asynchronous\ FIFO {D:/IIT BOMBAY/M.Tech Projects/Asynchronous FIFO/Tb_Asynchronous_FIFO.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:35:11 on Jul 24,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/IIT BOMBAY/M.Tech Projects/Asynchronous FIFO" D:/IIT BOMBAY/M.Tech Projects/Asynchronous FIFO/Tb_Asynchronous_FIFO.v 
+# -- Compiling module Tb_Asynchronous_FIFO
+# 
+# Top level modules:
+# 	Tb_Asynchronous_FIFO
+# End time: 22:35:11 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L cyclonev_ver -L lpm_ver -L sgate_ver -L cyclonev_hssi_ver -L altera_mf_ver -L cyclonev_pcie_hip_ver -L gate_work -L work -voptargs="+acc"  Tb_Asynchronous_FIFO
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L cyclonev_ver -L lpm_ver -L sgate_ver -L cyclonev_hssi_ver -L altera_mf_ver -L cyclonev_pcie_hip_ver -L gate_work -L work -voptargs=""+acc"" Tb_Asynchronous_FIFO 
+# Start time: 22:35:12 on Jul 24,2022
+# Loading work.Tb_Asynchronous_FIFO
+# Loading work.Asynchronous_FIFO
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_clkena
+# Loading altera_ver.dffeas
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# Loading cyclonev_ver.cyclonev_ram_block
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m10k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 22:37:41 on Jul 24,2022, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 0

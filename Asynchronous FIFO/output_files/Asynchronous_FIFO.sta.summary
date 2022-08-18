@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'read_clk'
+Slack : -3.556
+TNS   : -48.301
+
+Type  : Slow 1100mV 85C Model Setup 'write_clk'
+Slack : -3.287
+TNS   : -139.062
+
+Type  : Slow 1100mV 85C Model Hold 'write_clk'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'read_clk'
+Slack : 0.545
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'write_clk'
+Slack : -3.166
+TNS   : -174.017
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'read_clk'
+Slack : -3.166
+TNS   : -77.001
+
+Type  : Slow 1100mV 0C Model Setup 'read_clk'
+Slack : -3.511
+TNS   : -48.856
+
+Type  : Slow 1100mV 0C Model Setup 'write_clk'
+Slack : -3.283
+TNS   : -137.562
+
+Type  : Slow 1100mV 0C Model Hold 'write_clk'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'read_clk'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'write_clk'
+Slack : -3.166
+TNS   : -173.723
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'read_clk'
+Slack : -3.166
+TNS   : -77.760
+
+Type  : Fast 1100mV 85C Model Setup 'read_clk'
+Slack : -0.885
+TNS   : -5.982
+
+Type  : Fast 1100mV 85C Model Setup 'write_clk'
+Slack : -0.738
+TNS   : -19.112
+
+Type  : Fast 1100mV 85C Model Hold 'read_clk'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'write_clk'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'write_clk'
+Slack : -2.174
+TNS   : -84.245
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'read_clk'
+Slack : -2.174
+TNS   : -35.744
+
+Type  : Fast 1100mV 0C Model Setup 'read_clk'
+Slack : -0.729
+TNS   : -4.492
+
+Type  : Fast 1100mV 0C Model Setup 'write_clk'
+Slack : -0.563
+TNS   : -14.189
+
+Type  : Fast 1100mV 0C Model Hold 'write_clk'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'read_clk'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'write_clk'
+Slack : -2.174
+TNS   : -84.265
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'read_clk'
+Slack : -2.174
+TNS   : -35.815
+
+------------------------------------------------------------

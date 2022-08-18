@@ -1,0 +1,202 @@
+# do Proj_Cap_VSCPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/parrot1/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:03:11 on Nov 01,2021
+# vcom -reportprogress 300 -93 -work work /home/parrot1/Downloads/Sem3/EE721/ProjCap_721/vscpu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package assign_logic_pack
+# -- Compiling package body assign_logic_pack
+# -- Loading package assign_logic_pack
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package NUMERIC_STD
+# -- Loading package assign_logic_pack
+# -- Compiling entity vscpu
+# -- Compiling architecture rtl of vscpu
+# -- Compiling entity vscputb
+# -- Compiling architecture stim of vscputb
+# -- Loading entity vscpu
+# End time: 20:03:11 on Nov 01,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.vscputb
+# vsim work.vscputb 
+# Start time: 20:03:22 on Nov 01,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading ieee.numeric_std(body)
+# Loading work.assign_logic_pack(body)
+# Loading work.vscputb(stim)
+# Loading work.vscpu(rtl)
+add wave -position insertpoint  \
+sim:/vscputb/clk \
+sim:/vscputb/reset \
+sim:/vscputb/start \
+sim:/vscputb/write_en \
+sim:/vscputb/addr \
+sim:/vscputb/data \
+sim:/vscputb/status \
+sim:/vscputb/INSTR_add \
+sim:/vscputb/INSTR_and \
+sim:/vscputb/INSTR_jmp \
+sim:/vscputb/INSTR_inc \
+sim:/vscputb/A_WIDTH \
+sim:/vscputb/D_WIDTH
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Note: CS:0 psclk ='U'rst ='U'start ='U'write ='U'pc=0cstate =st_fetch1ac=0ir=instr_adddr=0ar=0data_rd =0read ='U'address =0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:0 psclk ='0'rst ='0'start ='0'write ='0'pc=0cstate =st_fetch1ac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note:  -----> AC = 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:1000 psclk ='1'rst ='1'start ='0'write ='0'pc=0cstate =st_fetch1ac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =0
+#    Time: 1 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 2  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:2000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =0
+#    Time: 2 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:3000 psclk ='1'rst ='0'start ='0'write ='1'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =1
+#    Time: 3 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:4000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =1
+#    Time: 4 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:5000 psclk ='1'rst ='0'start ='0'write ='1'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =2
+#    Time: 5 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:6000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =2
+#    Time: 6 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:7000 psclk ='1'rst ='0'start ='0'write ='1'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =3
+#    Time: 7 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 8 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:8000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =3
+#    Time: 8 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 9 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:9000 psclk ='1'rst ='0'start ='0'write ='1'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =4
+#    Time: 9 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:10000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =4
+#    Time: 10 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 11 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:11000 psclk ='1'rst ='0'start ='0'write ='1'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =5
+#    Time: 11 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:12000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =5
+#    Time: 12 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 13 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:13000 psclk ='1'rst ='0'start ='0'write ='1'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =6
+#    Time: 13 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 14 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:14000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =6
+#    Time: 14 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:15000 psclk ='1'rst ='0'start ='1'write ='0'pc=1cstate =st_haltac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =6
+#    Time: 15 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 16 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:16000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_fetch1ac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =0
+#    Time: 16 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note:  -----> AC = 0
+#    Time: 17 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 17 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:17000 psclk ='1'rst ='0'start ='0'write ='0'pc=1cstate =st_fetch1ac=0ir=instr_adddr=0ar=0data_rd =0read ='0'address =0
+#    Time: 17 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:18000 psclk ='0'rst ='0'start ='0'write ='0'pc=1cstate =st_fetch2ac=0ir=instr_adddr=0ar=1data_rd =5read ='1'address =1
+#    Time: 18 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:19000 psclk ='1'rst ='0'start ='0'write ='0'pc=1cstate =st_fetch2ac=0ir=instr_adddr=0ar=1data_rd =5read ='1'address =1
+#    Time: 19 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:20000 psclk ='0'rst ='0'start ='0'write ='0'pc=2cstate =st_fetch3ac=0ir=instr_adddr=5ar=5data_rd =0read ='0'address =5
+#    Time: 20 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 21 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:21000 psclk ='1'rst ='0'start ='0'write ='0'pc=2cstate =st_fetch3ac=0ir=instr_adddr=5ar=5data_rd =0read ='0'address =5
+#    Time: 21 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:22000 psclk ='0'rst ='0'start ='0'write ='0'pc=2cstate =st_add1ac=0ir=instr_adddr=5ar=5data_rd =39read ='1'address =5
+#    Time: 22 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:23000 psclk ='1'rst ='0'start ='0'write ='0'pc=2cstate =st_add1ac=0ir=instr_adddr=5ar=5data_rd =39read ='1'address =5
+#    Time: 23 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 24 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:24000 psclk ='0'rst ='0'start ='0'write ='0'pc=2cstate =st_add2ac=0ir=instr_adddr=39ar=5data_rd =0read ='0'address =5
+#    Time: 24 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 1  Instance: /vscputb/dut_vscpu
+# ** Note: CS:25000 psclk ='1'rst ='0'start ='0'write ='0'pc=2cstate =st_add2ac=0ir=instr_adddr=39ar=5data_rd =0read ='0'address =5
+#    Time: 25 ns  Iteration: 1  Instance: /vscputb/dut_vscpu

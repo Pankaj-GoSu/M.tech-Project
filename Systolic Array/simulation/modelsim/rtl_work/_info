@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/IIT BOMBAY/M.Tech Projects/Systolic Array/simulation/modelsim
+vPE
+Z1 !s110 1658686613
+!i10b 1
+!s100 AU6Zf0cfCh8SlMLg<FAn50
+Im`nE?M@2JTaGSVc:C3V]Z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1658686406
+Z4 8D:/IIT BOMBAY/M.Tech Projects/Systolic Array/Systolic_array.v
+Z5 FD:/IIT BOMBAY/M.Tech Projects/Systolic Array/Systolic_array.v
+L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1658686613.000000
+Z8 !s107 D:/IIT BOMBAY/M.Tech Projects/Systolic Array/Systolic_array.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Systolic Array|D:/IIT BOMBAY/M.Tech Projects/Systolic Array/Systolic_array.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+D:/IIT BOMBAY/M.Tech Projects/Systolic Array}
+Z12 tCvgOpt 0
+n@p@e
+vSystolic_array
+R1
+!i10b 1
+!s100 LK=l`FKIodS0le[k_E4k?0
+I7m?I5n>;SRj]BE6o9i5Pa0
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@systolic_array
+vTb_Systolic_array
+R1
+!i10b 1
+!s100 =B]DhA^1ODKo0BX?D[VZ;0
+IT3N[_GZ]EPLYJ53ZL3X]K0
+R2
+R0
+w1658686580
+8D:/IIT BOMBAY/M.Tech Projects/Systolic Array/Tb_Systolic_array.v
+FD:/IIT BOMBAY/M.Tech Projects/Systolic Array/Tb_Systolic_array.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/IIT BOMBAY/M.Tech Projects/Systolic Array/Tb_Systolic_array.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Systolic Array|D:/IIT BOMBAY/M.Tech Projects/Systolic Array/Tb_Systolic_array.v|
+!i113 1
+R10
+R11
+R12
+n@tb_@systolic_array

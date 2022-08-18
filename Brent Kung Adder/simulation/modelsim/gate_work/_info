@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder/simulation/modelsim
+vBrent_Kung
+Z1 !s110 1658662154
+!i10b 1
+!s100 ldUaa>cg33WCO1AC<2;2U2
+IJA[bcO6D0YY_<dZK8EJ3c1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658662032
+8Brent_Kung.vo
+FBrent_Kung.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1658662154.000000
+!s107 Brent_Kung.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Brent_Kung.vo|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+Z6 tCvgOpt 0
+n@brent_@kung
+vTb_BrentKung
+R1
+!i10b 1
+!s100 JT7BnF;4`MMmio5d:VDe72
+Id1XSAh32E_0jzZo9Lb`4I1
+R2
+R0
+w1658661961
+8D:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder/Tb_BrentKung.v
+FD:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder/Tb_BrentKung.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder/Tb_BrentKung.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder|D:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder/Tb_BrentKung.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+D:/IIT BOMBAY/M.Tech Projects/Brent Kung Adder}
+R6
+n@tb_@brent@kung

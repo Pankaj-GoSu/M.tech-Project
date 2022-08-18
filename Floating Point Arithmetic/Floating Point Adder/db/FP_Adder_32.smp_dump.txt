@@ -1,0 +1,10 @@
+
+State Machine - |FP_Adder_32|state
+Name state.RSLT state.WRITE state.SHIFT state.OP state.NEGPOS state.START state.RDY 
+state.RDY 0 0 0 0 0 0 0 
+state.START 0 0 0 0 0 1 1 
+state.NEGPOS 0 0 0 0 1 0 1 
+state.OP 0 0 0 1 0 0 1 
+state.SHIFT 0 0 1 0 0 0 1 
+state.WRITE 0 1 0 0 0 0 1 
+state.RSLT 1 0 0 0 0 0 1 

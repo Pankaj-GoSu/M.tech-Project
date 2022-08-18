@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/simulation/modelsim
+vFP_Adder_32
+Z1 !s110 1658685751
+!i10b 1
+!s100 EGNXSEogNUm0c5oOCfJIJ0
+IFOb82`l]JX;ZCCGQNTB383
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658685503
+8D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/FP_Adder_32.v
+FD:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/FP_Adder_32.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1658685751.000000
+!s107 D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/FP_Adder_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder|D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/FP_Adder_32.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder}
+Z7 tCvgOpt 0
+n@f@p_@adder_32
+vTb_FP_adder
+R1
+!i10b 1
+!s100 dEGJhG50l5NolgEk:DVI40
+IV11>LhF6GQZE4kjCE6ZWF1
+R2
+R0
+w1658685577
+8D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/Tb_FP_adder.v
+FD:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/Tb_FP_adder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/Tb_FP_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder|D:/IIT BOMBAY/M.Tech Projects/Floating Point Arithmetic/Floating Point Adder/Tb_FP_adder.v|
+!i113 1
+R5
+R6
+R7
+n@tb_@f@p_adder
